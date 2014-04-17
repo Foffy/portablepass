@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Aaaaa1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_title">Whatever you write in the text field will be sent to Arduino. Go!\n</string>
+    <string name="text_hint">This is hint. Bitches.</string>
+    <string name="button_send">Tap to send to Arduino</string>
+
+</resources>

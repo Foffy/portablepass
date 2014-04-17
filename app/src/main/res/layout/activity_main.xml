@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/TextViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_title"
+        android:textSize="10pt"/>
+
+    <EditText
+        android:id="@+id/EditText"
+        android:hint="@string/text_hint"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonSendText"
+        android:text="@string/button_send"
+        android:onClick="doText"
+    />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_on"
+        android:text="Turn ON"
+        android:onClick="turnOn"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_OFF"
+        android:text="Turn OFF"
+        android:onClick="turnOff"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_pair"
+        android:text="Pair With Arduino"
+        android:onClick="pairArduino"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_bt_view"
+        android:visibility="visible"
+        >
+
+
+        </ListView>
+
+
+</LinearLayout>
